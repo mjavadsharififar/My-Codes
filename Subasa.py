@@ -3,28 +3,10 @@
 # In[211]:
 import pandas as pd
 import sklearn.preprocessing
-
-# In[212]:
-
-
 train = pd.read_csv('C:\\Users\\admin\\Desktop\\sobasa\\train.csv')
-
-
-# In[213]:
-
-
-train.tail(60)
-
-
 # In[214]:
-
-
+#answer one:
 import numpy as np
-
-
-# In[215]:
-
-
 np.count_nonzero(np.unique(train['playerId']))
 
 
