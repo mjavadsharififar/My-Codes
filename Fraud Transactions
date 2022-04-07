@@ -1,14 +1,7 @@
 
-# coding: utf-8
 
-# ---
-# 
-# _You are currently looking at **version 1.2** of this notebook. To download notebooks and datafiles, as well as get help on Jupyter notebooks in the Coursera platform, visit the [Jupyter Notebook FAQ](https://www.coursera.org/learn/python-machine-learning/resources/bANLa) course resource._
-# 
-# ---
-
-# # Assignment 3 - Evaluation
-# 
+#This code is an answer to the challenge in Applied Machin Learning by Python Course, representesd by University of Michigan on Coursera.
+# here we use  Fraud Transaction dataset to evaluate machin learning algorithemes. descrieption of challenge is as follows:
 # In this assignment you will train several models and evaluate how effectively they predict instances of fraud using data based on [this dataset from Kaggle](https://www.kaggle.com/dalpozz/creditcardfraud).
 #  
 # Each row in `fraud_data.csv` corresponds to a credit card transaction. Features include confidential variables `V1` through `V28` as well as `Amount` which is the amount of the transaction. 
@@ -179,7 +172,7 @@ def answer_six():
 
 # In[ ]:
 
-# Use the following function to help visualize results from the grid search
+
 def GridSearch_Heatmap(scores):
     #%matplotlib notebook
     import seaborn as sns
