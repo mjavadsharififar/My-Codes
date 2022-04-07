@@ -1,13 +1,9 @@
 
 # coding: utf-8
 
-# ---
-# 
-# _You are currently looking at **version 1.1** of this notebook. To download notebooks and datafiles, as well as get help on Jupyter notebooks in the Coursera platform, visit the [Jupyter Notebook FAQ](https://www.coursera.org/learn/python-machine-learning/resources/bANLa) course resource._
-# 
-# ---
+#this code is an answer to the challenge in Applied Machin Learning by Python Course, representesd by University of Michigan on Coursera. descrieption of challenge is as follows:
 
-# ## Assignment 4 - Understanding and Predicting Property Maintenance Fines
+# ## Understanding and Predicting Property Maintenance Fines
 # 
 # This assignment is based on a data challenge from the Michigan Data Science Team ([MDST](http://midas.umich.edu/mdst/)). 
 # 
@@ -165,9 +161,6 @@ def blight_model():
     output = test.set_index('ticket_id')['prob']
     
     return output # Your answer here
-
-
-# In[ ]:
 
 
 
