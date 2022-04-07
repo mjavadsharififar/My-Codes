@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# This code are answer to a challenge designed by https://quera.org
+# These codes are answer to a challenge designed by https://quera.org
 # first challenge is about data analysis and second on wants to build classification model
 
 # In[211]:
