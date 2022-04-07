@@ -1,8 +1,7 @@
 
-# coding: utf-8
 
-# # Assignment 2
-# 
+#This code is an answer to the challenge in Applied Machin Learning by Python Course, representesd by University of Michigan on Coursera.
+#this challenga has 2 parts, one for regression and one for classification, using Mushroom dataset. descrieption of challenge is as follows:
 # In this assignment you'll explore the relationship between model complexity and generalization performance, by adjusting key parameters of various supervised learning models. Part 1 of this assignment will look at regression and Part 2 will look at classification.
 # 
 # ## Part 1 - Regression
